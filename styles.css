@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  border: 1px solid;
+  border: none;
   margin: 10px;
   padding: 2px;
 }
@@ -12,23 +12,23 @@ header {
 h1 {
   margin: 20px;
   padding: 18px;
-  border: 1px solid;
+  border: none;
   position: static;
   text-align: center;
   font-size: 50px;
 }
 
-.nav {
-  border: 1px solid;
+nav {
+  border: none;
   margin: 10px;
   padding: auto;
   position: static;
   text-align: center;
 }
 
-.nav a {
+nav a {
   background-color: azure;
-  border: 1px solid;
+  border: none;
   margin: auto;
   padding: 16px;
   width: 20%;
@@ -39,18 +39,12 @@ h1 {
   font-size: 20px;
 }
 
-.nav a:hover {
+nav a:hover {
   background-color: lightgray;
 }
 
-main {
-  border: 1px solid;
-  margin: 10px;
-  padding: 5px;
-}
-
 img {
-  border: 1px solid;
+  border: none;
   margin: auto;
   padding: 16px;
   height: 400px;
@@ -58,22 +52,28 @@ img {
   display: block;
 }
 
+main {
+  border: none;
+  margin: 50px;
+  padding: 40px;
+}
+
 h2 {
-  border: 1px solid;
+  border: none;
   margin: auto;
   padding: 18px;
   display: inline;
 }
 
 p {
-  border: 1px solid;
+  border: none;
   margin: auto;
   padding: 18px;
 }
 
 /*about me page*/
 #image2 {
-  border: 1px solid;
+  border: none;
   padding: 16px;
   width: 90%;
 }
